@@ -31,7 +31,7 @@ def get_dict():
 
     for i in range(len(res)):
         res[i] /= len(firm)
-        print("Cреднее значение " + list(firm['br1'].keys())[i] + " показателя по всей фирме:" + str(res[i]))
+        print("Cреднее значение '" + list(firm['br1'].keys())[i] + "' показателя по всей фирме:" + str(res[i]))
 
 
 get_dict()
