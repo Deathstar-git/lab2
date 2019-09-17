@@ -23,9 +23,16 @@ def get_dict():
             firm[j][i] = randint(10000, 100000)
 
     print(firm)
+    res = [0]*5
+    for j in firm:
 
-    val = reduce(lambda x, y: x + y, firm['br1'].values())
-    print(val)
+        val = list(firm[j].values())
+        for i in range(len(val)):
+            res[i] += val[i]
+
+    for i in range(len(res)):
+        res[i] /= len(firm)
+    print(res)
 
 
 get_dict()
