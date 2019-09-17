@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38231efc-1fed-4cf6-ab2f-04f81135d074" name="Default Changelist" comment="release sum br 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="38231efc-1fed-4cf6-ab2f-04f81135d074" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/lab2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +164,7 @@
       <workItem from="1568617503011" duration="1666000" />
       <workItem from="1568655543906" duration="1271000" />
       <workItem from="1568688808956" duration="887000" />
-      <workItem from="1568690417930" duration="4471000" />
+      <workItem from="1568690417930" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.1">
       <created>1568655649839</created>
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568692243510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="release sum data 2.0">
+      <created>1568694947642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568694947642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,10 +225,11 @@
     <MESSAGE value="version 1.2" />
     <MESSAGE value=" working version 1.0" />
     <MESSAGE value="release sum br 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="release sum br 1.0" />
+    <MESSAGE value="release sum data 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="release sum data 2.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/prog2$lab2.coverage" NAME="lab2 Coverage Results" MODIFIED="1568694868673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prog2$lab2.coverage" NAME="lab2 Coverage Results" MODIFIED="1568695307522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/prog2$AyurLAB1.coverage" NAME="AyurLAB1 Coverage Results" MODIFIED="1568607221355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/" />
     <SUITE FILE_PATH="coverage/prog2$practic.coverage" NAME="practic Coverage Results" MODIFIED="1568374882008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../vvpd1" />
     <SUITE FILE_PATH="coverage/prog2$learning1.coverage" NAME="learning1 Coverage Results" MODIFIED="1568608157217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled" />
