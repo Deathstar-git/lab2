@@ -3,7 +3,7 @@
 База данных с  показателями филиалов
 Вариант 25
 """
-# import numpy
+from functools import reduce
 from random import randint
 
 
@@ -23,11 +23,10 @@ def get_dict():
             firm[j][i] = randint(10000, 100000)
 
     print(firm)
-    for i in firm:
-        summ = firm[i]['revenue']
-        print(summ)
+    summ = 0
+    val = reduce(lambda x, y: x + y, firm['br1'].values())
+    summ = summ + val
+    print(summ)
 
 
 get_dict()
-
-print("GIT is flex")
