@@ -4,7 +4,6 @@
 Вариант 25
 """
 from random import randint
-from datetime import datetime
 
 
 def get_dict():
@@ -23,8 +22,7 @@ def get_dict():
         for i in firm[j]:
             firm[j][i] = randint(10000, 100000)  # рандомные значения для firm
 
-    print("БАЗА ДАННЫХ ФИРМЫ\n" + "Время:"
-          + datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S"))
+    print("БАЗА ДАННЫХ ФИРМЫ\n")
     print("Выберите действие:\n" + "1:Показать базу данных\n" +
           "2:Посчитать средние значения показателей")
     choose = input("Введите 1 или 2:")
