@@ -8,10 +8,10 @@ import argparse
 
 
 def create_parser():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('count', choices=['Enter'])
+    p = argparse.ArgumentParser()
+    p.add_argument('count', choices=['Enter', 'enter'])
 
-    return parser
+    return p
 
 
 def get_dict():
