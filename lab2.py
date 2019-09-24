@@ -4,6 +4,14 @@
 Вариант 25
 """
 from random import randint
+import argparse
+
+
+def create_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('count', choices=['Enter'])
+
+    return parser
 
 
 def get_dict():
@@ -37,7 +45,7 @@ def get_dict():
 
         print("")  # отступ
 
-    res = [0]*5
+    res = [0] * 5
     for j in firm:
         val = list(firm[j].values())
         for i in range(len(val)):
@@ -50,4 +58,7 @@ def get_dict():
                   "' показателя по всей фирме:" + str(res[i]))
 
 
-get_dict()
+if __name__ == '__main__':
+    parser = create_parser()
+    namespace = parser.parse_args()
+    get_dict()
